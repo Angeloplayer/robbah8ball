@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair+Display";
+}
+
+body {
+  background-image: url("robbah.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.ball {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.domanda {
+  background-color: rgb(85, 145, 235);
+  padding: 1.5em;
+  border-radius: 1em;
+}
+
+.risposta,
+.domanda {
+  color: #fff;
+  max-width: 80%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .risposta,
+  .domanda {
+    max-width: 400px;
+  }
+}
