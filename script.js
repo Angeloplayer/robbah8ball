@@ -40,7 +40,7 @@ userQuestion.addEventListener("keydown", function () {
         risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Non lo so, suca`;
         break;
       case 9:
-        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: PEFFOOOOOOOORZA`;
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: PEFFOOOOOOOORZA <br><audio autoplay><source src="peffo.mp3"></source></audio>`;
         break;
       case 10:
         risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Boh nel dubbio kys`;
