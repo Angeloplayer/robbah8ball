@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Playfair+Display";
+  color: #fff;
 }
 
 body {
@@ -23,6 +24,16 @@ body {
   gap: 5vh;
 }
 
+::placeholder {
+  color: #fff;
+}
+
+#username {
+  background-color: rgb(85, 145, 235);
+  border-radius: 1em;
+  padding: 0.3em;
+}
+
 .domanda {
   background-color: rgb(85, 145, 235);
   padding: 0.7em;
@@ -37,7 +48,6 @@ a {
 .risposta,
 .domanda,
 footer {
-  color: #fff;
   max-width: 80%;
   text-align: center;
 }
