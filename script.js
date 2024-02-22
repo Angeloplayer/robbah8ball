@@ -14,10 +14,10 @@ username.addEventListener("keydown", function () {
 // Domanda e risposta
 let userQuestion = document.getElementById("domanda");
 userQuestion.addEventListener("keydown", function () {
-  if (event.key === "Enter") {
+  if (event.key === "Enter" && username.value !== "") {
     console.log(`${username.value}: ${userQuestion.value}`);
     let risposta = document.getElementById("risposta");
-    // Numero casuale da 0 a 7 + palla
+    // Numero casuale per la domanda equivalente al numero di risposte + 1 escluso il default
     let randomNumber = Math.floor(Math.random() * 62);
 
     // Funzionamento palla
