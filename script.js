@@ -188,7 +188,7 @@ userQuestion.addEventListener("keydown", function () {
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>8Ball: Agisci come se domani fosse l'ultimo giorno, senza rimpianti`;
         break;
       case 56:
-        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>8Ball: Quanto è vero che Carlo `;
+        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>8Ball: Quanto è vero che Carlo molesta minorenni`;
         break;
       case 57:
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>8Ball: ...<br> MA SEI SERIO???`;
