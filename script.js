@@ -3,8 +3,8 @@
 
 let username = document.getElementById("username");
 let saluto = document.getElementById("saluto");
-username.addEventListener("keydown", function () {
-  if (event.key === "Enter" && username.value !== "") {
+username.addEventListener("input", function () {
+  if (username.value !== "") {
     saluto.innerHTML = `Ciao ${username.value}!`;
   } else {
     saluto.innerHTML = `Ciao stronzo!`;
@@ -14,8 +14,7 @@ username.addEventListener("keydown", function () {
 // Domanda e risposta
 let userQuestion = document.getElementById("domanda");
 userQuestion.addEventListener("keydown", function () {
-  if (event.key === "Enter" && username.value !== "") {
-    console.log(`${username.value}: ${userQuestion.value}`);
+  if (event.key == "Enter") {
     let risposta = document.getElementById("risposta");
     // Numero casuale per la domanda equivalente al numero di risposte + 1 escluso il default
     let randomNumber = Math.floor(Math.random() * 62);
@@ -208,5 +207,6 @@ userQuestion.addEventListener("keydown", function () {
       default:
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Mannaggia a Gianni`;
     }
+    console.log(risposta.innerHTML);
   }
 });
