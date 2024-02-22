@@ -11,7 +11,7 @@ userQuestion.addEventListener("keydown", function () {
     console.log(`${username}: Tu: ${userQuestion.value}`);
     let risposta = document.getElementById("risposta");
     // Numero casuale da 0 a 7 + palla
-    let randomNumber = Math.floor(Math.random() * 36);
+    let randomNumber = Math.floor(Math.random() * 62);
 
     // Funzionamento palla
     switch (randomNumber) {
@@ -40,7 +40,7 @@ userQuestion.addEventListener("keydown", function () {
         risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Non lo so, suca`;
         break;
       case 9:
-        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: PEFFOOOOOOOORZA <br><audio autoplay><source src="peffo.mp3"></source></audio>`;
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: PEFFOOOOOOOORZA <br><audio autoplay><source src="media/peffo.mp3"></source></audio>`;
         break;
       case 10:
         risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Boh nel dubbio kys`;
@@ -120,7 +120,82 @@ userQuestion.addEventListener("keydown", function () {
       case 35:
         risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Prova con questo <a href="https://youtu.be/xvFZjo5PgG0?si=LCptTZDfQkTDhDUz">video</a>`;
         break;
-      // case 19:
+      case 36:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Sicuramente renderà le cose più interessanti con un sextoy`;
+        break;
+      case 37:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Rischia, al massimo schioppi`;
+        break;
+      case 38:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Ma che cazzo te ne frega`;
+        break;
+      case 39:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Dai priorità a cse più importanti, e no, non il rankare su lol`;
+        break;
+      case 40:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Aspetta e spera`;
+        break;
+      case 41:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Prima le priorità, poi le probabilità`;
+        break;
+      case 42:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Resterà un dubbio, MUHAHAHHAHA`;
+        break;
+      case 43:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Fai una lista dei perchè di questa domanda e poi torna a farmi sto quesito del cazzo`;
+        break;
+      case 44:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Stai soft, senza pensier`;
+        break;
+      case 45:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Qualunque cosa ma non imitare o seguire le orme di Gianni`;
+        break;
+      case 46:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Si, solo se però tiri un ceffone a Ferdi`;
+        break;
+      case 47:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Adattati, hai sopportato gli audio di Ferdi, sopporterai anche questa delusione`;
+        break;
+      case 48:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Dipende, se una ranked su lol è peggio allora ne vale la pena`;
+        break;
+      case 49:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: EH VORRESTI, TI PIACEREBBE!`;
+        break;
+      case 50:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Girati e guarda la vastità del cazzo che me ne frega di questa domanda`;
+        break;
+      case 51:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Ti prego si, FALLO!`;
+        break;
+      case 52:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Ma sei pazzo? Ma anche no`;
+        break;
+      case 53:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Il duce approverebbe`;
+        break;
+      case 54:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Non c'è niente che tu possa fare<br><img src="media/napoleon.jpg" width="300px">`;
+        break;
+      case 55:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Agisci come se domani fosse l'ultimo giorno, senza rimpianti`;
+        break;
+      case 56:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Quanto è vero che Carlo `;
+        break;
+      case 57:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: ...<br> MA SEI SERIO???`;
+        break;
+      case 58:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Sei ancora troppo giovane per queste cose`;
+        break;
+      case 59:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Punta sempre in alto, alle stelle, se non puoi invece punta ai negri`;
+        break;
+      case 60:
+        risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: Con luca sicuramente sarà più rischioso`;
+        break;
+      // case 61:
       //   risposta.innerHTML = `Tu: ${userQuestion.value}? <br>8Ball: `;
       //   break;
       default:

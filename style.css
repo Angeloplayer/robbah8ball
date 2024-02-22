@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("robbah.jpeg");
+  background-image: url("media/robbah.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -35,7 +35,8 @@ a {
 }
 
 .risposta,
-.domanda {
+.domanda,
+footer {
   color: #fff;
   max-width: 80%;
   text-align: center;
