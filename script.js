@@ -182,7 +182,7 @@ userQuestion.addEventListener("keydown", function () {
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>8Ball: Il duce approverebbe`;
         break;
       case 54:
-        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>8Ball: Non c'è niente che tu possa fare<br><img src="media/napoleon.jpg" width="300px">`;
+        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>8Ball: Non c'è niente che tu possa fare<br><img src="media/napoleon.jpg" width="300px"><audio autoplay><source src="media/napoleon-meme.mp3"></source></audio>`;
         break;
       case 55:
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>8Ball: Agisci come se domani fosse l'ultimo giorno, senza rimpianti`;
