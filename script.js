@@ -34,7 +34,7 @@ userQuestion.addEventListener("keydown", function () {
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Se ad Axsu chiederai non te ne pentirai`;
         break;
       case 5:
-        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Si Djocan`;
+        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Si Djocan<br><img src="https://tse3.mm.bing.net/th?id=OIP.1FRdkc-l4oEeqIEcQ2Cx9AHaEK&pid=Api&P=0&h=180">`;
         break;
       case 6:
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: No cazzo`;
@@ -166,7 +166,7 @@ userQuestion.addEventListener("keydown", function () {
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Dipende, se una ranked su lol è peggio allora ne vale la pena`;
         break;
       case 49:
-        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: EH VORRESTI, TI PIACEREBBE!`;
+        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: EH VORRESTI, TI PIACEREBBE!<br><img src="https://tse2.mm.bing.net/th?id=OIP.jnuGBvyP-itsycAQBFE_ZAAAAA&pid=Api&P=0&h=180">`;
         break;
       case 50:
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Girati e guarda la vastità del cazzo che me ne frega di questa domanda`;
@@ -178,10 +178,10 @@ userQuestion.addEventListener("keydown", function () {
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Ma sei pazzo? Ma anche no`;
         break;
       case 53:
-        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Il duce approverebbe`;
+        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Il duce approverebbe<br><img src="https://tse4.mm.bing.net/th?id=OIP.jy-JsT-Yr4uRsPMitaovMQHaED&pid=Api&P=0&h=180">`;
         break;
       case 54:
-        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Non c'è niente che tu possa fare<br><img src="media/napoleon.jpg" width="300px"><audio autoplay><source src="media/napoleon-meme.mp3"></source></audio>`;
+        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Non c'è niente che tu possa fare<br><img src="media/napoleon.jpg"><audio autoplay><source src="media/napoleon-meme.mp3"></source></audio>`;
         break;
       case 55:
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Agisci come se domani fosse l'ultimo giorno, senza rimpianti`;
