@@ -19,7 +19,7 @@ userQuestion.addEventListener("keydown", function () {
     // Numero casuale per la domanda equivalente al numero di risposte + 1 escluso il default
     let randomNumber = Math.floor(Math.random() * 62);
     // Per i test
-    randomNumber = 60;
+    // randomNumber = 60;
 
     // Funzionamento palla
     switch (randomNumber) {
@@ -201,7 +201,7 @@ userQuestion.addEventListener("keydown", function () {
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Punta sempre in alto, alle stelle, se non puoi invece punta ai negri`;
         break;
       case 60:
-        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Con Luca sicuramente sarà più rischioso<br><video autoplay loop><source src="media/lucalastor.mp4"></video>`;
+        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Con Luca sicuramente sarà più rischioso<br><video autoplay loop><source src="media/lucauto.mp4"></video>`;
         break;
       // case 61:
       //   risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: `;
