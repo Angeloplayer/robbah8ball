@@ -1,8 +1,12 @@
 // Robball
-// Utente e saluto
+// Utente, saluto, domanda  e risposta.
 
 let username = document.getElementById("username");
 let saluto = document.getElementById("saluto");
+let userQuestion = document.getElementById("domanda");
+let risposta = document.getElementById("risposta");
+
+//Funzionamento nickname
 username.addEventListener("input", function () {
   if (username.value !== "") {
     saluto.innerHTML = `Ciao ${username.value}!`;
@@ -11,19 +15,19 @@ username.addEventListener("input", function () {
   }
 });
 
-// Domanda e risposta
-let userQuestion = document.getElementById("domanda");
+// Funzionamento domanda e risposta
 userQuestion.addEventListener("keydown", function () {
   if (event.key == "Enter") {
-    let risposta = document.getElementById("risposta");
     let domanda =
       username.value + ": " + userQuestion.value + "? <br>Robball: ";
-    // Numero casuale per la domanda equivalente al numero di risposte + 1 escluso il default
+
+    // Numero casuale per la risposta equivalente al numero di risposte + default
     let randomNumber = Math.floor(Math.random() * 62);
+
     // Per i test
     // randomNumber = 60;
 
-    // Funzionamento palla
+    // Risposte
     switch (randomNumber) {
       case 1:
         risposta.innerHTML = `${domanda} Chiedilo a quel cazzone di Peppe`;
