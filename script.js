@@ -19,7 +19,7 @@ userQuestion.addEventListener("keydown", function () {
     // Numero casuale per la domanda equivalente al numero di risposte + 1 escluso il default
     let randomNumber = Math.floor(Math.random() * 62);
     // Per i test
-    // randomNumber = 1;
+    randomNumber = 60;
 
     // Funzionamento palla
     switch (randomNumber) {
@@ -90,7 +90,7 @@ userQuestion.addEventListener("keydown", function () {
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Solo se i testimoni di Geova smetteranno di suonare i campanelli di casa`;
         break;
       case 23:
-        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Dipende, faresti mai un patto con Luca?`;
+        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Dipende, faresti mai un patto con Luca?<br><video autoplay loop><source src="media/lucalastor.mp4"></video>`;
         break;
       case 24:
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Le tue probabilità sono alte quanto le probabilità che Brixie abbia il fumo addosso`;
@@ -201,7 +201,7 @@ userQuestion.addEventListener("keydown", function () {
         risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Punta sempre in alto, alle stelle, se non puoi invece punta ai negri`;
         break;
       case 60:
-        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Con luca sicuramente sarà più rischioso`;
+        risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: Con Luca sicuramente sarà più rischioso<br><video autoplay loop><source src="media/lucalastor.mp4"></video>`;
         break;
       // case 61:
       //   risposta.innerHTML = `${username.value}: ${userQuestion.value}? <br>Robball: `;
