@@ -18,6 +18,8 @@ userQuestion.addEventListener("keydown", function () {
     let risposta = document.getElementById("risposta");
     // Numero casuale per la domanda equivalente al numero di risposte + 1 escluso il default
     let randomNumber = Math.floor(Math.random() * 62);
+    // Per i test
+    // randomNumber = 1;
 
     // Funzionamento palla
     switch (randomNumber) {
