@@ -9,13 +9,16 @@ let risposta = document.getElementById("risposta");
 //Funzionamento nickname
 username.addEventListener("input", function () {
   if (username.value !== "") {
-    saluto.innerHTML = `Ciao ${username.value}!`;
+    saluto.innerText = `Ciao ${username.value}!`;
   } else {
-    saluto.innerHTML = `Ciao stronzo!`;
+    saluto.innerText = `Ciao strunz!`;
   }
 });
 
 // Funzionamento domanda e risposta
+if (username.value === "") {
+  username.value = "Strunz";
+}
 userQuestion.addEventListener("keydown", function () {
   if (event.key == "Enter") {
     let domanda =
